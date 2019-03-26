@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UVCardView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UVCardView.'
+  s.summary          = 'This is a simple Cocoapod for creating CardView in iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"This is a simple Cocoapod for creating CardView in iOS. Its provide some basic extension and subclassing for UIKit for UI Designs."
                        DESC
 
-  s.homepage         = 'https://github.com/Umesh/UVCardView'
+  s.homepage         = 'https://github.com/umeshiscreative/UVCardView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Umesh' => 'umeshk.verma@webspiders.com' }
-  s.source           = { :git => 'https://github.com/Umesh/UVCardView.git', :tag => s.version.to_s }
+  s.author           = { 'Umesh' => 'umeshiscreative@gmail.com' }
+  s.source           = { :git => 'https://github.com/umeshiscreative/UVCardView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'UVCardView/Classes/**/*'
+  s.source_files = 'UVCardView/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'UVCardView' => ['UVCardView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

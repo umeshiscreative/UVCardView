@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import UVCardView
+
+//Step 1: Don't forgot to import pods
 
 class ViewController: UIViewController {
 
+    //Step 2: Connect with Imageview
+    @IBOutlet weak var customImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //Step 3: Call the round view method
+        customImageView.roundViewWith(borderColor: UIColor.red, borderWidth: 3.0)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
