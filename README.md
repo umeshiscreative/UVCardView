@@ -22,7 +22,7 @@ pod 'UVCardView'
 
 ## Author
 
-Umesh, umeshk.verma@webspiders.com
+Umesh, umeshiscreative@gmail.com
 
 ## License
 
