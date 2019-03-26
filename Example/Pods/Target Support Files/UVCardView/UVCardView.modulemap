@@ -1,0 +1,6 @@
+framework module UVCardView {
+  umbrella header "UVCardView-umbrella.h"
+
+  export *
+  module * { export * }
+}

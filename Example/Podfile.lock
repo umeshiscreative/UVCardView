@@ -1,0 +1,16 @@
+PODS:
+  - UVCardView (0.1.0)
+
+DEPENDENCIES:
+  - UVCardView (from `../`)
+
+EXTERNAL SOURCES:
+  UVCardView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UVCardView: 711a11604b2060f725b17733c05d75b8e742af32
+
+PODFILE CHECKSUM: f5785c988c06accb1705fd68116fc2a0ffa52621
+
+COCOAPODS: 1.5.3

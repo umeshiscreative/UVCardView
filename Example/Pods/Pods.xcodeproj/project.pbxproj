@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233B4072BF6B728B0A0D4170A2F0E939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		465C17E225DF602FD3F2615FB644A882 /* UVCardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FB8E613829B6A6708EAF234FEE3946 /* UVCardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56287A660668A812A97907F3EB36A65C /* Pods-UVCardView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9743CC60961039CD42D539C5490EF422 /* Pods-UVCardView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724A43C4071385905562E459B3DC3259 /* Pods-UVCardView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE36D2B8FA47B6086C280360FE315F9 /* Pods-UVCardView_Example-dummy.m */; };
+		8206A4890C1B068C3DD663E40E38FDDC /* Pods-UVCardView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E07B3ADAA40A608F74D5629E86AE0D /* Pods-UVCardView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DBF6C947FCB4C4D56C3147AF040A9B6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E097FB86D3A35434065839FA4C93B /* ReplaceMe.swift */; };
+		918009D9CDAD1B4E87893C3E472EF6DF /* Pods-UVCardView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F349E885250BDC87CCA56930070D21B /* Pods-UVCardView_Tests-dummy.m */; };
+		A43CBF310623D008D5E05BEFCA979751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BEBFAED271A5BE5FD638D8DB55BBCD5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CF036E20A180BFBF9DE0BB5E487A674F /* UVCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B66A03CD618FE8DD55226DDA050425 /* UVCardView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6AD3CF37D4D58FAB7012CA5AE734980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6098A8A3585B4195FDAE4663C98ADE;
+			remoteInfo = UVCardView;
+		};
+		DBAD48BED59946D0E2878AF70FDD6940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715DCC4872607CAF7ACEB83925499500;
+			remoteInfo = "Pods-UVCardView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D0A8E73FEC01493572129A0528C7C34 /* Pods_UVCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UVCardView_Tests.framework; path = "Pods-UVCardView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C180D145159A87DD6BFC171EA43B5E4 /* Pods-UVCardView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UVCardView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3190B65CE1723B48FCE5EC29E6C39EFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BE4B3CC283A1537EC0A846FFCE82E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		31CCC422AD1E94CC49BD69490B01E307 /* Pods-UVCardView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UVCardView_Tests.modulemap"; sourceTree = "<group>"; };
+		35281BE07A14AA502FDE851053E9857D /* Pods-UVCardView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UVCardView_Tests-resources.sh"; sourceTree = "<group>"; };
+		35C956DB77F737654F4B1BE58BC8CE6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3BFA3AE0F9A5144FEDD2CFA68ECFBF8D /* Pods-UVCardView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UVCardView_Example-resources.sh"; sourceTree = "<group>"; };
+		3E2BBD153AB5CA52098AAAC2BF1BCF10 /* Pods-UVCardView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UVCardView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		401569163BF37482C5F4C00EF09B8774 /* UVCardView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UVCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4541C3A3E6696F7AD945996CF99561CF /* Pods-UVCardView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UVCardView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4AC4961958E9F5C8B38C3662465BFB38 /* Pods-UVCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UVCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		52FB8E613829B6A6708EAF234FEE3946 /* UVCardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UVCardView-umbrella.h"; sourceTree = "<group>"; };
+		692EAB8E45D7DD46866A3BDB828F26DC /* UVCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UVCardView.framework; path = UVCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE130AE814046CDF63EB1CA3E526A60 /* UVCardView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UVCardView.xcconfig; sourceTree = "<group>"; };
+		6E2659A8DE5D152D3191A21B2552ABE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D91D3C7EAEAAECCA7A2C94237C5AE6 /* Pods-UVCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UVCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7DF3A7E1D24E3D520C924817ACF8C873 /* Pods_UVCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UVCardView_Example.framework; path = "Pods-UVCardView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B66A03CD618FE8DD55226DDA050425 /* UVCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UVCardView-dummy.m"; sourceTree = "<group>"; };
+		8F03AEA8FEF6D0B6D58C56A2374CE9D0 /* Pods-UVCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UVCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F349E885250BDC87CCA56930070D21B /* Pods-UVCardView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UVCardView_Tests-dummy.m"; sourceTree = "<group>"; };
+		8FEC08A23128107306A9B088B8D72F3C /* Pods-UVCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UVCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9472363E1CFC8055F9E68188F8DBA0AB /* UVCardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UVCardView.modulemap; sourceTree = "<group>"; };
+		9743CC60961039CD42D539C5490EF422 /* Pods-UVCardView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UVCardView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9DE36D2B8FA47B6086C280360FE315F9 /* Pods-UVCardView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UVCardView_Example-dummy.m"; sourceTree = "<group>"; };
+		A7AA56555205CE995AAFD5A6C4067E40 /* Pods-UVCardView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UVCardView_Example.modulemap"; sourceTree = "<group>"; };
+		C305AE3CD7057B8BAA63591B3338B0CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2CAA547624C607BFBBA02011D64BCC2 /* Pods-UVCardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UVCardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3D89058733079A3F232AA9E7F79CA9C /* UVCardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UVCardView-prefix.pch"; sourceTree = "<group>"; };
+		EAD0383E54F393414166CD55834BA353 /* Pods-UVCardView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UVCardView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0E07B3ADAA40A608F74D5629E86AE0D /* Pods-UVCardView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UVCardView_Example-umbrella.h"; sourceTree = "<group>"; };
+		F40E097FB86D3A35434065839FA4C93B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UVCardView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FF9007A6C8049CA27B5F81A259D92E85 /* Pods-UVCardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UVCardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F138F503BBA5BA67DDD5C851547531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBFAED271A5BE5FD638D8DB55BBCD5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD723B5DC6D45DCA3AD2F68EF512C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43CBF310623D008D5E05BEFCA979751 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4077A294640D777D6BCB0726108A8BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233B4072BF6B728B0A0D4170A2F0E939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03127D251BED3E7FB60B15A921F52B52 /* Pods-UVCardView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3190B65CE1723B48FCE5EC29E6C39EFD /* Info.plist */,
+				A7AA56555205CE995AAFD5A6C4067E40 /* Pods-UVCardView_Example.modulemap */,
+				FF9007A6C8049CA27B5F81A259D92E85 /* Pods-UVCardView_Example-acknowledgements.markdown */,
+				D2CAA547624C607BFBBA02011D64BCC2 /* Pods-UVCardView_Example-acknowledgements.plist */,
+				9DE36D2B8FA47B6086C280360FE315F9 /* Pods-UVCardView_Example-dummy.m */,
+				4541C3A3E6696F7AD945996CF99561CF /* Pods-UVCardView_Example-frameworks.sh */,
+				3BFA3AE0F9A5144FEDD2CFA68ECFBF8D /* Pods-UVCardView_Example-resources.sh */,
+				F0E07B3ADAA40A608F74D5629E86AE0D /* Pods-UVCardView_Example-umbrella.h */,
+				8FEC08A23128107306A9B088B8D72F3C /* Pods-UVCardView_Example.debug.xcconfig */,
+				73D91D3C7EAEAAECCA7A2C94237C5AE6 /* Pods-UVCardView_Example.release.xcconfig */,
+			);
+			name = "Pods-UVCardView_Example";
+			path = "Target Support Files/Pods-UVCardView_Example";
+			sourceTree = "<group>";
+		};
+		130A71DC2BBD1143F99C358866C812D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF3A7E1D24E3D520C924817ACF8C873 /* Pods_UVCardView_Example.framework */,
+				0D0A8E73FEC01493572129A0528C7C34 /* Pods_UVCardView_Tests.framework */,
+				692EAB8E45D7DD46866A3BDB828F26DC /* UVCardView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653CE9133637713FCBCB0294D2C29D97 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BBDB48EBD8C5B786535C96C56F650 /* UVCardView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		89DA411258B342D77E30FDFD083424FC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				35C956DB77F737654F4B1BE58BC8CE6C /* LICENSE */,
+				31BE4B3CC283A1537EC0A846FFCE82E6 /* README.md */,
+				401569163BF37482C5F4C00EF09B8774 /* UVCardView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF2D4063DD6CAA7869B807559348E773 /* Pods-UVCardView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C305AE3CD7057B8BAA63591B3338B0CD /* Info.plist */,
+				31CCC422AD1E94CC49BD69490B01E307 /* Pods-UVCardView_Tests.modulemap */,
+				EAD0383E54F393414166CD55834BA353 /* Pods-UVCardView_Tests-acknowledgements.markdown */,
+				3E2BBD153AB5CA52098AAAC2BF1BCF10 /* Pods-UVCardView_Tests-acknowledgements.plist */,
+				8F349E885250BDC87CCA56930070D21B /* Pods-UVCardView_Tests-dummy.m */,
+				2C180D145159A87DD6BFC171EA43B5E4 /* Pods-UVCardView_Tests-frameworks.sh */,
+				35281BE07A14AA502FDE851053E9857D /* Pods-UVCardView_Tests-resources.sh */,
+				9743CC60961039CD42D539C5490EF422 /* Pods-UVCardView_Tests-umbrella.h */,
+				4AC4961958E9F5C8B38C3662465BFB38 /* Pods-UVCardView_Tests.debug.xcconfig */,
+				8F03AEA8FEF6D0B6D58C56A2374CE9D0 /* Pods-UVCardView_Tests.release.xcconfig */,
+			);
+			name = "Pods-UVCardView_Tests";
+			path = "Target Support Files/Pods-UVCardView_Tests";
+			sourceTree = "<group>";
+		};
+		C519296018415122054CA46EB7438244 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E2659A8DE5D152D3191A21B2552ABE5 /* Info.plist */,
+				9472363E1CFC8055F9E68188F8DBA0AB /* UVCardView.modulemap */,
+				6CE130AE814046CDF63EB1CA3E526A60 /* UVCardView.xcconfig */,
+				88B66A03CD618FE8DD55226DDA050425 /* UVCardView-dummy.m */,
+				D3D89058733079A3F232AA9E7F79CA9C /* UVCardView-prefix.pch */,
+				52FB8E613829B6A6708EAF234FEE3946 /* UVCardView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UVCardView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				653CE9133637713FCBCB0294D2C29D97 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				130A71DC2BBD1143F99C358866C812D0 /* Products */,
+				DA03C22F8ED5976C3C975362A8A01BC3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA03C22F8ED5976C3C975362A8A01BC3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03127D251BED3E7FB60B15A921F52B52 /* Pods-UVCardView_Example */,
+				BF2D4063DD6CAA7869B807559348E773 /* Pods-UVCardView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF3BBDB48EBD8C5B786535C96C56F650 /* UVCardView */ = {
+			isa = PBXGroup;
+			children = (
+				F40E097FB86D3A35434065839FA4C93B /* ReplaceMe.swift */,
+				89DA411258B342D77E30FDFD083424FC /* Pod */,
+				C519296018415122054CA46EB7438244 /* Support Files */,
+			);
+			name = UVCardView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		119AC6776323AF7A7D163F1BF357C37F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8206A4890C1B068C3DD663E40E38FDDC /* Pods-UVCardView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C077B743B53B9540B47F35359E2C77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465C17E225DF602FD3F2615FB644A882 /* UVCardView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2557B83C74FB53EAA1F7B3EC372057F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56287A660668A812A97907F3EB36A65C /* Pods-UVCardView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F6098A8A3585B4195FDAE4663C98ADE /* UVCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9177C8588E40375FD2FD929BF1217287 /* Build configuration list for PBXNativeTarget "UVCardView" */;
+			buildPhases = (
+				B7C077B743B53B9540B47F35359E2C77 /* Headers */,
+				2646221BE9FDCCCC9A214382C6119F41 /* Sources */,
+				7FD723B5DC6D45DCA3AD2F68EF512C7B /* Frameworks */,
+				197EE4DFE1738933769DD818104D4069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UVCardView;
+			productName = UVCardView;
+			productReference = 692EAB8E45D7DD46866A3BDB828F26DC /* UVCardView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		715DCC4872607CAF7ACEB83925499500 /* Pods-UVCardView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6DABF7B96E55D889E3860907F42BBB /* Build configuration list for PBXNativeTarget "Pods-UVCardView_Example" */;
+			buildPhases = (
+				119AC6776323AF7A7D163F1BF357C37F /* Headers */,
+				D09DB989A88F76D16267D486F251E606 /* Sources */,
+				F4077A294640D777D6BCB0726108A8BF /* Frameworks */,
+				AC6F75D5A07728C884706C2617CFB770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D533D61EA53731A342D731EDE130A815 /* PBXTargetDependency */,
+			);
+			name = "Pods-UVCardView_Example";
+			productName = "Pods-UVCardView_Example";
+			productReference = 7DF3A7E1D24E3D520C924817ACF8C873 /* Pods_UVCardView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0AF933175B133013C1CE25A412323B4 /* Pods-UVCardView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C984CEDB20160137D928F59AB0D7C24 /* Build configuration list for PBXNativeTarget "Pods-UVCardView_Tests" */;
+			buildPhases = (
+				C2557B83C74FB53EAA1F7B3EC372057F /* Headers */,
+				DD5C80E560B1A48DC2B761B7F8B2206F /* Sources */,
+				09F138F503BBA5BA67DDD5C851547531 /* Frameworks */,
+				AA4930E17ADFA77524D52710F2162F1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B3BA8474CB57815C6A962C3D81AF71D /* PBXTargetDependency */,
+			);
+			name = "Pods-UVCardView_Tests";
+			productName = "Pods-UVCardView_Tests";
+			productReference = 0D0A8E73FEC01493572129A0528C7C34 /* Pods_UVCardView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 130A71DC2BBD1143F99C358866C812D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715DCC4872607CAF7ACEB83925499500 /* Pods-UVCardView_Example */,
+				B0AF933175B133013C1CE25A412323B4 /* Pods-UVCardView_Tests */,
+				1F6098A8A3585B4195FDAE4663C98ADE /* UVCardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		197EE4DFE1738933769DD818104D4069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4930E17ADFA77524D52710F2162F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6F75D5A07728C884706C2617CFB770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2646221BE9FDCCCC9A214382C6119F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBF6C947FCB4C4D56C3147AF040A9B6 /* ReplaceMe.swift in Sources */,
+				CF036E20A180BFBF9DE0BB5E487A674F /* UVCardView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09DB989A88F76D16267D486F251E606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724A43C4071385905562E459B3DC3259 /* Pods-UVCardView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5C80E560B1A48DC2B761B7F8B2206F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918009D9CDAD1B4E87893C3E472EF6DF /* Pods-UVCardView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B3BA8474CB57815C6A962C3D81AF71D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UVCardView_Example";
+			target = 715DCC4872607CAF7ACEB83925499500 /* Pods-UVCardView_Example */;
+			targetProxy = DBAD48BED59946D0E2878AF70FDD6940 /* PBXContainerItemProxy */;
+		};
+		D533D61EA53731A342D731EDE130A815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UVCardView;
+			target = 1F6098A8A3585B4195FDAE4663C98ADE /* UVCardView */;
+			targetProxy = B6AD3CF37D4D58FAB7012CA5AE734980 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		656AC156EE1F510A3077233E033E57BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC4961958E9F5C8B38C3662465BFB38 /* Pods-UVCardView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UVCardView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UVCardView_Tests/Pods-UVCardView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2D8ABB6E4BC099AA916C6E74DA83921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B43F94BEFA84B9A8772F6CF1D5B1B59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE130AE814046CDF63EB1CA3E526A60 /* UVCardView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UVCardView/UVCardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UVCardView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UVCardView/UVCardView.modulemap";
+				PRODUCT_MODULE_NAME = UVCardView;
+				PRODUCT_NAME = UVCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF17B80227EE551582927B0FBE01EF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF8BDE61A03EF0CE31FA4F23F07D9C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F03AEA8FEF6D0B6D58C56A2374CE9D0 /* Pods-UVCardView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UVCardView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UVCardView_Tests/Pods-UVCardView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E04E980E3A7A4F2395052383ACB06772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D91D3C7EAEAAECCA7A2C94237C5AE6 /* Pods-UVCardView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UVCardView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UVCardView_Example/Pods-UVCardView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F60AF47A9AA6B84DDE7AF8817A642546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE130AE814046CDF63EB1CA3E526A60 /* UVCardView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UVCardView/UVCardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UVCardView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UVCardView/UVCardView.modulemap";
+				PRODUCT_MODULE_NAME = UVCardView;
+				PRODUCT_NAME = UVCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA4B1A9354C875425214518AFBB17B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEC08A23128107306A9B088B8D72F3C /* Pods-UVCardView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UVCardView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UVCardView_Example/Pods-UVCardView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C6DABF7B96E55D889E3860907F42BBB /* Build configuration list for PBXNativeTarget "Pods-UVCardView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4B1A9354C875425214518AFBB17B63 /* Debug */,
+				E04E980E3A7A4F2395052383ACB06772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8ABB6E4BC099AA916C6E74DA83921 /* Debug */,
+				BF17B80227EE551582927B0FBE01EF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C984CEDB20160137D928F59AB0D7C24 /* Build configuration list for PBXNativeTarget "Pods-UVCardView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656AC156EE1F510A3077233E033E57BC /* Debug */,
+				DF8BDE61A03EF0CE31FA4F23F07D9C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9177C8588E40375FD2FD929BF1217287 /* Build configuration list for PBXNativeTarget "UVCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43F94BEFA84B9A8772F6CF1D5B1B59A /* Debug */,
+				F60AF47A9AA6B84DDE7AF8817A642546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
