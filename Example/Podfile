@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UVCardView_Example' do
+  pod 'UVCardView', :path => '../'
+
+  target 'UVCardView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
