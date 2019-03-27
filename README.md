@@ -1,13 +1,13 @@
 # UVCardView
 
-<p align="center">
+<p align="left">
     <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+" />
     <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift4-f48041.svg?style=flat" alt="Language: Swift 4" /></a>
     <a href="https://cocoapods.org/pods/Pantry"><img src="https://img.shields.io/cocoapods/v/UVCardView.svg?style=flat" alt="CocoaPods compatible" /></a>
  <img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" />
 </p>
 
-<p align="center">
+<p align="left">
 <a href="#installation">Installation</a>
 • <a href="https://github.com/umeshiscreative/UVCardView/issues">Issues</a>
 • <a href="#license">License</a>
