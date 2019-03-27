@@ -3,7 +3,7 @@
 <p align="left">
     <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+" />
     <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift4-f48041.svg?style=flat" alt="Language: Swift 4" /></a>
-    <a href="https://cocoapods.org/pods/Pantry"><img src="https://img.shields.io/cocoapods/v/UVCardView.svg?style=flat" alt="CocoaPods compatible" /></a>
+    <a href="https://cocoapods.org/pods/UVCardView"><img src="https://img.shields.io/cocoapods/v/UVCardView.svg?style=flat" alt="CocoaPods compatible" /></a>
     <a href="#license"><img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" /></a>
 </p>
 
@@ -19,7 +19,7 @@ UVCardView requires iOS 8+ and is compatible with **Swift 4** projects. Please, 
 
 ## Installation
 
-UVCardView is available through [CocoaPods](https://cocoapods.org). To install
+UVCardView is available through [CocoaPods](https://cocoapods.org/pods/UVCardView). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
