@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UVCardView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'This is a simple Cocoapod for creating CardView in iOS.'
 
 # This description is used to generate tags and improve search results.
