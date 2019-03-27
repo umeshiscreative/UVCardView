@@ -16,9 +16,8 @@
 		A43CBF310623D008D5E05BEFCA979751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		BEBFAED271A5BE5FD638D8DB55BBCD5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		CF036E20A180BFBF9DE0BB5E487A674F /* UVCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B66A03CD618FE8DD55226DDA050425 /* UVCardView-dummy.m */; };
-		FC327B36224A40A900759FE8 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7CFC1224A35EC005CFDE6 /* UIImageView+Extension.swift */; };
-		FC327B37224A413000759FE8 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7CFC1224A35EC005CFDE6 /* UIImageView+Extension.swift */; };
-		FCA7CFC2224A35EC005CFDE6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7CFC1224A35EC005CFDE6 /* UIImageView+Extension.swift */; };
+		FC3E5305224B7FB2008BAEAD /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3E5300224B7FB2008BAEAD /* UIImageView+Extension.swift */; };
+		FC3E530A224B801C008BAEAD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3E5309224B801C008BAEAD /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +71,8 @@
 		D3D89058733079A3F232AA9E7F79CA9C /* UVCardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UVCardView-prefix.pch"; sourceTree = "<group>"; };
 		EAD0383E54F393414166CD55834BA353 /* Pods-UVCardView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UVCardView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F0E07B3ADAA40A608F74D5629E86AE0D /* Pods-UVCardView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UVCardView_Example-umbrella.h"; sourceTree = "<group>"; };
-		FCA7CFC1224A35EC005CFDE6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extension.swift"; path = "UVCardView/Classes/UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		FC3E5300224B7FB2008BAEAD /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		FC3E5309224B801C008BAEAD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FF9007A6C8049CA27B5F81A259D92E85 /* Pods-UVCardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UVCardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,12 +221,29 @@
 		DF3BBDB48EBD8C5B786535C96C56F650 /* UVCardView */ = {
 			isa = PBXGroup;
 			children = (
+				FC3E52FE224B7FB2008BAEAD /* UVCardView */,
 				89DA411258B342D77E30FDFD083424FC /* Pod */,
 				C519296018415122054CA46EB7438244 /* Support Files */,
-				FCA7CFC1224A35EC005CFDE6 /* UIImageView+Extension.swift */,
 			);
 			name = UVCardView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC3E52FE224B7FB2008BAEAD /* UVCardView */ = {
+			isa = PBXGroup;
+			children = (
+				FC3E52FF224B7FB2008BAEAD /* Classes */,
+			);
+			path = UVCardView;
+			sourceTree = "<group>";
+		};
+		FC3E52FF224B7FB2008BAEAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC3E5300224B7FB2008BAEAD /* UIImageView+Extension.swift */,
+				FC3E5309224B801C008BAEAD /* CardView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,7 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC327B36224A40A900759FE8 /* UIImageView+Extension.swift in Sources */,
+				FC3E5305224B7FB2008BAEAD /* UIImageView+Extension.swift in Sources */,
+				FC3E530A224B801C008BAEAD /* CardView.swift in Sources */,
 				CF036E20A180BFBF9DE0BB5E487A674F /* UVCardView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCA7CFC2224A35EC005CFDE6 /* UIImageView+Extension.swift in Sources */,
 				724A43C4071385905562E459B3DC3259 /* Pods-UVCardView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +412,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC327B37224A413000759FE8 /* UIImageView+Extension.swift in Sources */,
 				918009D9CDAD1B4E87893C3E472EF6DF /* Pods-UVCardView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
