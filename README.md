@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/UVCardView.svg?style=flat)](https://cocoapods.org/pods/UVCardView)
 [![License](https://img.shields.io/cocoapods/l/UVCardView.svg?style=flat)](https://cocoapods.org/pods/UVCardView)
 [![Platform](https://img.shields.io/cocoapods/p/UVCardView.svg?style=flat)](https://cocoapods.org/pods/UVCardView)
-
+[![Swift](https://img.shields.io/badge/swift-4-brightgreen.svg?style=flat)](http://cocoapods.org/pods/UVCardView)
 
 ## Compatibility
 
