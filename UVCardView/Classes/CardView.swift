@@ -8,8 +8,11 @@
 import UIKit
 
 @IBDesignable
-open class CardView: UIView {
+@objcMembers open class CardView: UIView {
     
+    /*
+     *  Set the Corner Radius of your View
+     */
     @IBInspectable
     open var cornerRadiusExt: CGFloat {
         get {
@@ -20,10 +23,12 @@ open class CardView: UIView {
             let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: layer.cornerRadius)
             layer.shadowPath = shadowPath.cgPath
             layer.masksToBounds = false
-            //layer.masksToBounds = newValue > 0
         }
     }
     
+    /*
+     *  Set the Border width of your View
+     */
     @IBInspectable
     open var borderWidthExt: CGFloat {
         get {
@@ -34,6 +39,9 @@ open class CardView: UIView {
         }
     }
     
+    /*
+     *  Set the Border color of your View
+     */
     @IBInspectable
     open var borderColorExt: UIColor? {
         get {
@@ -45,6 +53,9 @@ open class CardView: UIView {
         }
     }
     
+    /*
+     *  Set the Shadow radius of your View
+     */
     @IBInspectable
     open var shadowRadiusExt: CGFloat {
         get {
@@ -52,10 +63,13 @@ open class CardView: UIView {
         }
         set {
             layer.shadowOffset = CGSize.zero
-            layer.shadowRadius = shadowRadiusExt
+            layer.shadowRadius = newValue
         }
     }
     
+    /*
+     *  Set the Shadow opacity of your View
+     */
     @IBInspectable
     open var shadowOpacityExt: Float {
         get{
@@ -66,6 +80,9 @@ open class CardView: UIView {
         }
     }
     
+    /*
+     *  Set the Shadow offset of your View
+     */
     @IBInspectable
     open var shadowOffSetYExt: CGFloat {
         get{
@@ -76,6 +93,9 @@ open class CardView: UIView {
         }
     }
     
+    /*
+     *  Set the Shadow color of your View
+     */
     @IBInspectable
     open var shadowColorExt:UIColor? {
         get{
